@@ -1,6 +1,6 @@
 # MRI Image Explorer for Medical Diagnosis
 
-This project is designed to provide a user-friendly interface to explore MRI (Magnetic Resonance Imaging) images and their corresponding labels. The primary goal is to facilitate a better understanding of the medical images for clinicians and researchers. The project employs a simple but effective interactive interface where users can choose different slices and channels of the MRI images, helping in the diagnosis and study of conditions like tumours. The project uses Python specifically Jupyter Notebook and some of the libraries used are specific Jupyter Notebook usage so be sure to download the software to run the program as intended. 
+This project is designed to provide a user-friendly interface to explore MRI (Magnetic Resonance Imaging) images and their corresponding labels. The primary goal is to facilitate a better understanding of the medical images for clinicians and researchers. The project employs a simple but effective interactive interface where users can choose different slices and channels of the MRI images, helping diagnose and study conditions like tumours. The project uses Python, specifically Jupyter Notebook, and some libraries are specific Jupyter Notebook usage, so be sure to download the software to run the program as intended. 
 
 The imaging data was obtained from the following website (https://decathlon-10.grand-challenge.org/), specifically the "Task01_BrainTumour.tar" file and is credited to the following academic paper: https://doi.org/10.1038/s41467-022-30695-9. 
 
@@ -8,9 +8,9 @@ I only included 2 of the files in each "Images" and "Label" folder because of th
 
 
 Features
-Interactive UI: Allows users to select specific files, layers, and channels for both MRI images and their corresponding labels.
-Visual Insights: Renders the selected MRI image slice alongside its labeled version for immediate visual comparison.
-Customizable: Can easily be extended to include more features like segmentation algorithms, statistical metrics, etc.
+Interactive UI: Allows users to select specific files, layers, and channels for MRI images and their corresponding labels.
+Visual Insights: Renders the selected MRI image slice alongside its labelled version for immediate visual comparison.
+Customizable: This can easily be extended to include more features like segmentation algorithms, statistical metrics, etc.
 Technical Stack
 Python: The core logic is written in Python.
 Nibabel: For reading the NIfTI-1 format MRI images.
